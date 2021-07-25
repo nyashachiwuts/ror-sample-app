@@ -1,5 +1,4 @@
 require 'active_support/core_ext/string'
-
 # Defines the matching rules for Guard.
 guard :minitest, spring: "bin/rails test", all_on_start: false do
   watch(%r{^test/(.*)/?(.*)_test\.rb$})
